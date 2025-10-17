@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/A/S1/Y6SYAI6I8B4QSE7H3Q42L6.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/D/T8/9UU6NYTHI7RFOLYGWO60M7.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/8/7Q/LSUCQ6SQ4YVVMPJFD6ZIHV.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/9/QV/2MFZ9LA0G6EH1319DDCP5E.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/4/FW/0ZMOOXKUABSE2OIUCRXCFT.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/6/XR/L6XHZZB3G9WLWSLS8MPL37.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/5/B9/M5BJHA6GBD4B5OTS774LOK.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/5/EC/FJV965MQVTHRGRBIJNJQRK.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/B/7S/DUC4RRRX8DWTXVV9WZ9LPQ.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/3/55/RQ5CK6VGMB1TFJX4XS5LIU.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalObjects__/CA1/2/ZB/VKFK5O1IKIMGU1E7LX9MXC.uasset",
+				"C:/Users/giorg/OneDrive/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/CA1.umap"
+			]
+		}
+	]
+}
