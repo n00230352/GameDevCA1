@@ -3070,3 +3070,1282 @@ Sampler Limit: 32
 [2025.10.22-16.25.07:839][940]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.22-16.25.07:839][940]AssetCheck: /Game/CA1 Validating asset
 [2025.10.22-16.25.07:854][940]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.22-16.26.35:755][232]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.26.35:760][232]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.26.35:760][232]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.26.35:760][232]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 695 us (total: 9.536 ms)
+[2025.10.22-16.26.35:760][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.26.35:793][232]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.26.35:806][232]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.26.35:809][232]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.887 ms (total: 35.560 ms)
+[2025.10.22-16.26.35:809][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015840s)
+[2025.10.22-16.26.35:809][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.015893s)
+[2025.10.22-16.26.35:832][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.10.22-16.26.35:833][232]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.26.35:834][232]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.26.35:834][232]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.26.35:834][232]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.26.35:834][232]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.26.35:837][232]LogWorldPartition: Display: WorldPartition initialize took 3.117 ms (total: 193.005 ms)
+[2025.10.22-16.26.35:837][232]LogPlayLevel: PIE: World Init took: (0.004738s)
+[2025.10.22-16.26.35:838][232]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.10.22-16.26.35:838][232]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.26.35:838][232]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.26.35:838][232]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.26.35:838][232]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.26.35:838][232]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.26.35:838][232]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.26.35:838][232]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.26.35:838][232]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.26.35:838][232]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.26.35:838][232]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.26.35:838][232]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.26.35:840][232]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.26.35:863][232]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.26.35:864][232]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.26.35:864][232]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.26.35:864][232]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.26.35:864][232]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.10.22-16.26.35:864][232]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.10.22-16.26.35:866][232]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.10.22-16.26.35:866][232]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.10.22-16.26.35:866][232]LogInit: FAudioDevice initialized with ID 13.
+[2025.10.22-16.26.35:866][232]LogAudio: Display: Audio Device (ID: 13) registered with world 'CA1'.
+[2025.10.22-16.26.35:866][232]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.22-16.26.35:869][232]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.26.35:875][232]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.26.35
+[2025.10.22-16.26.35:876][232]LogWorld: Bringing up level for play took: 0.005781
+[2025.10.22-16.26.35:877][232]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.10.22-16.26.35:882][232]PIE: Server logged in
+[2025.10.22-16.26.35:883][232]PIE: Play in editor total start time 0.124 seconds.
+[2025.10.22-16.26.45:539][363]LogCharacterMovement: BP_FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=429.69 Y=-418.04 Z=0.00 Location: X=-7983.48 Y=7616.30 Z=69.35 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:26.650 Actor:LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_2_0 Component:LandscapeHeightfieldCollisionComponent_42 BoneName:None (0 other events since notify)
+[2025.10.22-16.27.35:434][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.27.35:434][344]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.27.35:434][344]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.27.35:436][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.27.35:436][344]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.27.35:438][344]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.27.35:442][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.27.35:464][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.27.35:464][344]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.22-16.27.35:464][344]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.10.22-16.27.35:466][344]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.10.22-16.27.35:474][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.22-16.27.35:526][345]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.10.22-16.28.13:211][420]Cmd: TRANSACTION UNDO
+[2025.10.22-16.28.13:211][420]LogEditorTransaction: Undo Scale Elements
+[2025.10.22-16.28.14:338][474]Cmd: TRANSACTION UNDO
+[2025.10.22-16.28.14:338][474]LogEditorTransaction: Undo Scale Elements
+[2025.10.22-16.28.55:409][832]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.28.55:414][832]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.28.55:414][832]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.28.55:414][832]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 741 us (total: 10.278 ms)
+[2025.10.22-16.28.55:415][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.28.55:415][832]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.28.55:429][832]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.28.55:432][832]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.076 ms (total: 38.636 ms)
+[2025.10.22-16.28.55:432][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017253s)
+[2025.10.22-16.28.55:432][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.017292s)
+[2025.10.22-16.28.55:458][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.10.22-16.28.55:459][832]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.28.55:460][832]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.28.55:460][832]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.28.55:460][832]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.28.55:460][832]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.28.55:465][832]LogWorldPartition: Display: WorldPartition initialize took 3.661 ms (total: 196.667 ms)
+[2025.10.22-16.28.55:465][832]LogPlayLevel: PIE: World Init took: (0.005219s)
+[2025.10.22-16.28.55:465][832]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.10.22-16.28.55:465][832]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.28.55:465][832]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.28.55:465][832]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.28.55:465][832]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.28.55:465][832]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.28.55:465][832]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.28.55:465][832]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.28.55:465][832]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.28.55:465][832]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.28.55:465][832]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.28.55:465][832]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.28.55:468][832]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.28.55:493][832]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.28.55:493][832]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.28.55:493][832]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.28.55:493][832]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.28.55:493][832]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.10.22-16.28.55:493][832]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.10.22-16.28.55:496][832]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.10.22-16.28.55:496][832]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.10.22-16.28.55:496][832]LogInit: FAudioDevice initialized with ID 14.
+[2025.10.22-16.28.55:496][832]LogAudio: Display: Audio Device (ID: 14) registered with world 'CA1'.
+[2025.10.22-16.28.55:496][832]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.22-16.28.55:498][832]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.28.55:505][832]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.28.55
+[2025.10.22-16.28.55:506][832]LogWorld: Bringing up level for play took: 0.006363
+[2025.10.22-16.28.55:508][832]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.10.22-16.28.55:513][832]PIE: Server logged in
+[2025.10.22-16.28.55:513][832]PIE: Play in editor total start time 0.1 seconds.
+[2025.10.22-16.29.07:272][210]LogCharacterMovement: BP_FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-144.57 Y=-522.44 Z=0.00 Location: X=-7983.48 Y=7616.30 Z=69.35 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:26.650 Actor:LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_2_0 Component:LandscapeHeightfieldCollisionComponent_42 BoneName:None (0 other events since notify)
+[2025.10.22-16.29.09:855][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.29.09:855][515]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.29.09:855][515]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.29.09:858][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.29.09:858][515]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.29.09:861][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.29.09:864][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.29.09:885][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.29.09:886][515]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.22-16.29.09:886][515]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.10.22-16.29.09:888][515]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.10.22-16.29.09:896][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.22-16.29.09:960][516]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.10.22-16.29.52:954][665]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7215.430176
+[2025.10.22-16.29.53:095][682]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.29.53:095][682]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7215.564941, Update Interval: 305.689270
+[2025.10.22-16.31.34:834][819]LogDerivedDataCache: C:/Users/n00230352/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.22-16.31.36:847][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.10.22-16.31.36:858][ 36]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1_Auto5
+[2025.10.22-16.31.36:858][ 36]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/OO9YR34HUAF0LL55FU7YL1_Auto5551A0BCE4A9CCC17362FCC8298D3F95E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1_Auto5.uasset'
+[2025.10.22-16.31.36:859][ 36]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CA1' took 0.033
+[2025.10.22-16.31.36:859][ 36]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2025.10.22-16.33.01:235][660]LogStreaming: Display: FlushAsyncLoading(680): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.22-16.33.16:861][ 76]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.16:861][ 76]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.16:878][ 76]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.22-16.33.16:897][ 76]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.22-16.33.16:903][ 76]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.22-16.33.16:909][ 76]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.10.22-16.33.16:909][ 76]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.10.22-16.33.16:909][ 76]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.10.22-16.33.16:915][ 76]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.10.22-16.33.16:921][ 76]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.17:326][ 80]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.17:326][ 80]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.17:333][ 80]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.17:526][ 90]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.17:526][ 90]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.17:530][ 90]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.17:803][117]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.17:803][117]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.17:810][117]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.17:810][117]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.18:953][248]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.18:953][248]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.18:959][248]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.19:411][296]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.19:411][296]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.19:417][296]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.19:417][296]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.29:317][425]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.29:317][425]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.29:323][425]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.29:897][435]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.29:897][435]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.29:901][435]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.30:411][491]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.30:411][491]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.30:418][491]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.30:923][545]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.30:923][545]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.31:410][595]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.31:410][595]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.31:420][595]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.31:860][641]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.31:860][641]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.31:869][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.31:870][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.31:870][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.31:871][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.32:312][687]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.32:312][687]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.44:800][147]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.44:800][147]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.45:109][151]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.45:109][151]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.45:115][151]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.45:356][153]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.45:356][153]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.45:545][155]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.45:545][155]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.45:550][155]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.45:780][176]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.45:780][176]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.46:010][196]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.46:010][196]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.46:227][215]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.46:227][215]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.46:455][235]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.46:455][235]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.46:461][235]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.46:680][255]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.46:680][255]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.46:685][255]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.46:887][273]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.46:887][273]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.46:892][273]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.46:893][273]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.47:104][292]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.47:104][292]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.47:110][292]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.47:110][292]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.47:345][314]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.47:345][314]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.47:576][335]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.47:576][335]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.47:814][357]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.47:815][357]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.47:820][357]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.33.48:073][381]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.48:073][381]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.33.48:295][400]Cmd: TRANSACTION UNDO
+[2025.10.22-16.33.48:295][400]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.34.00:104][780]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.34.00:109][780]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.34.00:109][780]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.34.00:117][780]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 7.337 ms (total: 17.615 ms)
+[2025.10.22-16.34.00:117][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.34.00:146][780]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.34.00:160][780]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.34.00:163][780]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.163 ms (total: 41.800 ms)
+[2025.10.22-16.34.00:163][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016933s)
+[2025.10.22-16.34.00:163][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.016967s)
+[2025.10.22-16.34.00:193][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.10.22-16.34.00:194][780]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.34.00:195][780]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.34.00:195][780]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.34.00:195][780]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.34.00:195][780]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.34.00:199][780]LogWorldPartition: Display: WorldPartition initialize took 3.559 ms (total: 200.227 ms)
+[2025.10.22-16.34.00:199][780]LogPlayLevel: PIE: World Init took: (0.005114s)
+[2025.10.22-16.34.00:200][780]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.10.22-16.34.00:200][780]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.34.00:200][780]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.34.00:200][780]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.34.00:200][780]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.34.00:200][780]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.34.00:200][780]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.34.00:200][780]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.34.00:200][780]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.34.00:200][780]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.34.00:200][780]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.34.00:200][780]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.34.00:202][780]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.34.00:227][780]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.34.00:227][780]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.34.00:227][780]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.34.00:227][780]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.34.00:228][780]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.10.22-16.34.00:228][780]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.10.22-16.34.00:230][780]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.10.22-16.34.00:230][780]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.10.22-16.34.00:230][780]LogInit: FAudioDevice initialized with ID 15.
+[2025.10.22-16.34.00:230][780]LogAudio: Display: Audio Device (ID: 15) registered with world 'CA1'.
+[2025.10.22-16.34.00:230][780]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.22-16.34.00:233][780]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.34.00:240][780]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.34.00
+[2025.10.22-16.34.00:240][780]LogWorld: Bringing up level for play took: 0.006352
+[2025.10.22-16.34.00:242][780]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.10.22-16.34.00:247][780]PIE: Server logged in
+[2025.10.22-16.34.00:248][780]PIE: Play in editor total start time 0.14 seconds.
+[2025.10.22-16.34.44:457][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.34.44:457][ 64]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.34.44:457][ 64]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.34.44:459][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.34.44:459][ 64]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.34.44:462][ 64]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.34.44:464][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.34.44:487][ 64]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-16.34.44:487][ 64]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.22-16.34.44:487][ 64]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.10.22-16.34.44:490][ 64]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.10.22-16.34.44:496][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.34.44:498][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.10.22-16.34.44:545][ 65]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.10.22-16.35.20:283][641]Cmd: TRANSACTION UNDO
+[2025.10.22-16.35.20:283][641]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.35.20:303][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:303][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:304][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_2_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:304][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:304][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:305][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:306][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_2_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:306][641]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:821][647]Cmd: TRANSACTION UNDO
+[2025.10.22-16.35.20:821][647]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.35.20:828][647]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:828][647]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:829][647]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.20:829][647]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.31:177][797]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7553.648926
+[2025.10.22-16.35.31:304][812]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.35.31:305][812]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7553.766113, Update Interval: 337.003082
+[2025.10.22-16.35.36:631][432]Cmd: TRANSACTION UNDO
+[2025.10.22-16.35.36:631][432]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.35.36:641][432]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.36:642][432]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.36:642][432]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.37:040][437]Cmd: TRANSACTION UNDO
+[2025.10.22-16.35.37:040][437]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.35.37:046][437]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.37:046][437]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.37:165][438]Cmd: TRANSACTION UNDO
+[2025.10.22-16.35.37:165][438]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.35.37:170][438]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.37:170][438]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.35.37:420][455]Cmd: TRANSACTION UNDO
+[2025.10.22-16.35.37:420][455]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.35.43:381][159]Cmd: TRANSACTION UNDO
+[2025.10.22-16.35.43:381][159]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.35.43:387][159]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.36.03:851][476]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.36.03:856][476]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.36.03:856][476]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.36.03:864][476]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 7.849 ms (total: 25.465 ms)
+[2025.10.22-16.36.03:864][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.36.03:865][476]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.36.03:879][476]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.36.03:882][476]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.217 ms (total: 45.017 ms)
+[2025.10.22-16.36.03:882][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016993s)
+[2025.10.22-16.36.03:882][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.017029s)
+[2025.10.22-16.36.03:906][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.10.22-16.36.03:907][476]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.36.03:909][476]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.36.03:909][476]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.36.03:909][476]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.36.03:909][476]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.36.03:913][476]LogWorldPartition: Display: WorldPartition initialize took 3.644 ms (total: 203.871 ms)
+[2025.10.22-16.36.03:913][476]LogPlayLevel: PIE: World Init took: (0.005317s)
+[2025.10.22-16.36.03:914][476]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.10.22-16.36.03:914][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.36.03:914][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.36.03:914][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.36.03:914][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.36.03:914][476]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.36.03:914][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.36.03:914][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.36.03:914][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.36.03:914][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.36.03:914][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.36.03:914][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.36.03:916][476]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.36.03:941][476]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.36.03:941][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.36.03:941][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.36.03:941][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.36.03:942][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.10.22-16.36.03:942][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.10.22-16.36.03:944][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.10.22-16.36.03:944][476]LogInit: FAudioDevice initialized with ID 16.
+[2025.10.22-16.36.03:944][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.10.22-16.36.03:944][476]LogAudio: Display: Audio Device (ID: 16) registered with world 'CA1'.
+[2025.10.22-16.36.03:944][476]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.22-16.36.03:948][476]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.36.03:954][476]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.36.03
+[2025.10.22-16.36.03:954][476]LogWorld: Bringing up level for play took: 0.006688
+[2025.10.22-16.36.03:957][476]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.10.22-16.36.03:963][476]PIE: Server logged in
+[2025.10.22-16.36.03:964][476]PIE: Play in editor total start time 0.107 seconds.
+[2025.10.22-16.36.13:149][570]LogCharacterMovement: BP_FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=599.05 Y=33.70 Z=0.00 Location: X=-7983.48 Y=7616.30 Z=69.35 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:26.650 Actor:LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_2_0 Component:LandscapeHeightfieldCollisionComponent_42 BoneName:None (0 other events since notify)
+[2025.10.22-16.36.17:188][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.36.17:188][ 50]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.36.17:189][ 50]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.36.17:191][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.36.17:191][ 50]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.36.17:194][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.36.17:196][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.36.17:217][ 50]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-16.36.17:217][ 50]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.22-16.36.17:217][ 50]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2025.10.22-16.36.17:219][ 50]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2025.10.22-16.36.17:224][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.36.17:227][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.22-16.36.17:274][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.10.22-16.37.02:701][492]Cmd: TRANSACTION UNDO
+[2025.10.22-16.37.02:701][492]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.37.02:712][492]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.02:712][492]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.02:713][492]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.02:713][492]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.03:210][498]Cmd: TRANSACTION UNDO
+[2025.10.22-16.37.03:210][498]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.37.03:218][498]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.03:219][498]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.03:219][498]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.03:220][498]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.03:220][498]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.03:222][498]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.37:875][389]Cmd: TRANSACTION UNDO
+[2025.10.22-16.37.37:875][389]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.37.37:889][389]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.37:890][389]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.37:890][389]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.37:891][389]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.38:567][405]Cmd: TRANSACTION UNDO
+[2025.10.22-16.37.38:567][405]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2025.10.22-16.37.38:576][405]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.38:576][405]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.38:576][405]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.38:577][405]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.38:577][405]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.38:577][405]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.37.38:578][405]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.39.35:428][301]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.39.35:433][301]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.39.35:434][301]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.39.35:442][301]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 7.772 ms (total: 33.237 ms)
+[2025.10.22-16.39.35:442][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.39.35:469][301]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.39.35:482][301]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.39.35:486][301]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.870 ms (total: 47.888 ms)
+[2025.10.22-16.39.35:486][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017102s)
+[2025.10.22-16.39.35:486][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.017145s)
+[2025.10.22-16.39.35:508][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.10.22-16.39.35:511][301]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.39.35:512][301]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.39.35:512][301]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.39.35:512][301]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.39.35:512][301]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.39.35:516][301]LogWorldPartition: Display: WorldPartition initialize took 3.840 ms (total: 207.712 ms)
+[2025.10.22-16.39.35:516][301]LogPlayLevel: PIE: World Init took: (0.005333s)
+[2025.10.22-16.39.35:517][301]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.10.22-16.39.35:517][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.39.35:517][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.39.35:517][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.39.35:517][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.39.35:517][301]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.39.35:517][301]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.39.35:517][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.39.35:517][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.39.35:517][301]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.39.35:517][301]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.39.35:517][301]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.39.35:519][301]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.39.35:544][301]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.39.35:544][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.39.35:544][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.39.35:544][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.39.35:545][301]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.10.22-16.39.35:545][301]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.10.22-16.39.35:547][301]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.10.22-16.39.35:547][301]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.10.22-16.39.35:547][301]LogInit: FAudioDevice initialized with ID 17.
+[2025.10.22-16.39.35:547][301]LogAudio: Display: Audio Device (ID: 17) registered with world 'CA1'.
+[2025.10.22-16.39.35:547][301]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.22-16.39.35:551][301]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.39.35:557][301]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.39.35
+[2025.10.22-16.39.35:557][301]LogWorld: Bringing up level for play took: 0.005932
+[2025.10.22-16.39.35:559][301]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.10.22-16.39.35:565][301]PIE: Server logged in
+[2025.10.22-16.39.35:566][301]PIE: Play in editor total start time 0.132 seconds.
+[2025.10.22-16.39.49:204][929]LogCharacterMovement: BP_FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=393.42 Y=-333.54 Z=0.00 Location: X=-7983.48 Y=7616.30 Z=69.35 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:26.650 Actor:LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_2_0 Component:LandscapeHeightfieldCollisionComponent_42 BoneName:None (0 other events since notify)
+[2025.10.22-16.40.06:068][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.40.06:068][948]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.40.06:068][948]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.40.06:071][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.40.06:071][948]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.40.06:074][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.40.06:077][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.40.06:100][948]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-16.40.06:100][948]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.22-16.40.06:100][948]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2025.10.22-16.40.06:102][948]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2025.10.22-16.40.06:107][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.40.06:110][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.10.22-16.40.06:159][949]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.10.22-16.41.45:252][114]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7927.705078
+[2025.10.22-16.41.46:251][117]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.41.46:251][117]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7928.370117, Update Interval: 342.734467
+[2025.10.22-16.42.23:853][596]LogFab: Display: Logging in using persist
+[2025.10.22-16.42.23:854][596]LogEOSSDK: Warning: LogEOSAuth: No existing persistent auth credentials were found for automatic login.
+[2025.10.22-16.42.24:230][596]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2025.10.22-16.42.24:233][596]LogCEFBrowser: CEF GPU acceleration enabled
+[2025.10.22-16.42.24:316][596]LogFab: Error: Login failed - error code: EOS_InvalidAuth
+[2025.10.22-16.42.24:316][596]LogFab: Display: Logging in using exchange code
+[2025.10.22-16.42.24:316][596]LogFab: Display: Reading exchange code from commandline
+[2025.10.22-16.42.24:316][596]LogEOSSDK: Error: LogEOSAuth: Invalid parameter EOS_Auth_Credentials.Token reason: must not be null or empty
+[2025.10.22-16.42.24:332][597]LogFab: Error: Login failed - error code: EOS_InvalidParameters
+[2025.10.22-16.42.25:772][719]LogEOSSDK: Error: LogEOS: EOS_Auth_CopyUserAuthToken - One or more parameters are null
+[2025.10.22-16.42.25:772][719]LogFab: Error: User auth token is invalid - unable to get auth token
+[2025.10.22-16.43.05:274][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.22-16.43.05:281][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_0_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:283][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_0_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:300][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/0/8K/962U30699Q7KNP02RRZMDU_Auto6
+[2025.10.22-16.43.05:300][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/962U30699Q7KNP02RRZMDU_Auto6801F1052425B8C1378C5829F4FC6DDE3.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/0/8K/962U30699Q7KNP02RRZMDU_Auto6.uasset'
+[2025.10.22-16.43.05:303][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:304][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:304][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:305][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:320][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/1/8Z/T4TD16RQV5RI1Z6BO69YK0_Auto6
+[2025.10.22-16.43.05:321][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/T4TD16RQV5RI1Z6BO69YK0_Auto6DF3006B64AF42DC4B85703BBA40B7270.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/1/8Z/T4TD16RQV5RI1Z6BO69YK0_Auto6.uasset'
+[2025.10.22-16.43.05:323][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:324][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:335][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/4/NZ/5A0QBU8IV50EHXSNISWVV4_Auto6
+[2025.10.22-16.43.05:336][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/5A0QBU8IV50EHXSNISWVV4_Auto6446A78304465E0CFD82B3888E4727EF5.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/4/NZ/5A0QBU8IV50EHXSNISWVV4_Auto6.uasset'
+[2025.10.22-16.43.05:337][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:338][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:351][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/4/Z2/BWGNEEKMNFB4694J92RX0P_Auto6
+[2025.10.22-16.43.05:351][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/BWGNEEKMNFB4694J92RX0P_Auto6C4A2F8BB4CA54EF2FD10D291B9E53C1E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/4/Z2/BWGNEEKMNFB4694J92RX0P_Auto6.uasset'
+[2025.10.22-16.43.05:354][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:355][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:356][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:357][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:372][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/7/67/541FD3G7TNQ9DFIJC1KCEC_Auto6
+[2025.10.22-16.43.05:372][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/541FD3G7TNQ9DFIJC1KCEC_Auto65AB7BADF480FF112BE77239CBF2C50BB.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/7/67/541FD3G7TNQ9DFIJC1KCEC_Auto6.uasset'
+[2025.10.22-16.43.05:389][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/7/8A/QY4OFGNYMDVF94W11900WG_Auto6
+[2025.10.22-16.43.05:390][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/QY4OFGNYMDVF94W11900WG_Auto6C55FFAA441DFB09AC984FAA38B1E312A.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/7/8A/QY4OFGNYMDVF94W11900WG_Auto6.uasset'
+[2025.10.22-16.43.05:392][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:393][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:394][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:395][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:409][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/7/XU/4FJM32N4I6GWKCRXD89KF6_Auto6
+[2025.10.22-16.43.05:410][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/4FJM32N4I6GWKCRXD89KF6_Auto6A82CD45E49D6C1EB705B4E8CC9D12E06.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/7/XU/4FJM32N4I6GWKCRXD89KF6_Auto6.uasset'
+[2025.10.22-16.43.05:426][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/9/BC/8A2EW50TBACL4HVVXXF17D_Auto6
+[2025.10.22-16.43.05:427][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/8A2EW50TBACL4HVVXXF17D_Auto68AC865704781A59A85D1F68DAFA8FF25.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/9/BC/8A2EW50TBACL4HVVXXF17D_Auto6.uasset'
+[2025.10.22-16.43.05:443][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/B/1M/B0JFS2EC8CHTR4T65OENR6_Auto6
+[2025.10.22-16.43.05:443][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/B0JFS2EC8CHTR4T65OENR6_Auto6C444614D45A61033054AF9A94A9F357A.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/B/1M/B0JFS2EC8CHTR4T65OENR6_Auto6.uasset'
+[2025.10.22-16.43.05:448][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_2_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:449][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_2_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:460][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/B/U1/8B4VMGUPZZ4KZJ1J9472RV_Auto6
+[2025.10.22-16.43.05:461][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/8B4VMGUPZZ4KZJ1J9472RV_Auto6BFED2AAC4A99FCDC0C954A8BBC828914.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/B/U1/8B4VMGUPZZ4KZJ1J9472RV_Auto6.uasset'
+[2025.10.22-16.43.05:463][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:464][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:479][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/B/Z2/69C31ZG1B3Y129BVC0CQCO_Auto6
+[2025.10.22-16.43.05:480][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/69C31ZG1B3Y129BVC0CQCO_Auto6B68F76F146E4FE8CCA3565AC47176D01.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/B/Z2/69C31ZG1B3Y129BVC0CQCO_Auto6.uasset'
+[2025.10.22-16.43.05:482][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:483][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:483][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:484][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:498][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/D/RT/KGQ74KGSCMQDTQAWB96GNJ_Auto6
+[2025.10.22-16.43.05:499][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/KGQ74KGSCMQDTQAWB96GNJ_Auto6F81BF2EF4F87ACC40253F4825402C9AC.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/D/RT/KGQ74KGSCMQDTQAWB96GNJ_Auto6.uasset'
+[2025.10.22-16.43.05:511][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/D/YL/31DOYTLOBFXC01UK340DFJ_Auto6
+[2025.10.22-16.43.05:512][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/31DOYTLOBFXC01UK340DFJ_Auto6A2FB9CA24DF5705A2FAD2EBCBA91CC16.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/D/YL/31DOYTLOBFXC01UK340DFJ_Auto6.uasset'
+[2025.10.22-16.43.05:513][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:514][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:515][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:516][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:531][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/E/83/5ALOC8V6LWMMAZQC7O8YEE_Auto6
+[2025.10.22-16.43.05:531][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/5ALOC8V6LWMMAZQC7O8YEE_Auto6AB9A8C1D4ADAD6050122CB9A600F1211.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/E/83/5ALOC8V6LWMMAZQC7O8YEE_Auto6.uasset'
+[2025.10.22-16.43.05:533][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:534][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:536][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:537][ 28]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-16.43.05:551][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/E/H5/P4WC4GNMUAT1EUV538CB10_Auto6
+[2025.10.22-16.43.05:552][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/P4WC4GNMUAT1EUV538CB10_Auto61661D33E4BCF0652BE3BE0B6E6B5AC01.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/E/H5/P4WC4GNMUAT1EUV538CB10_Auto6.uasset'
+[2025.10.22-16.43.05:559][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1_Auto6
+[2025.10.22-16.43.05:559][ 28]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/OO9YR34HUAF0LL55FU7YL1_Auto66A82534E43A1FCE6586683B79E35CC96.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1_Auto6.uasset'
+[2025.10.22-16.43.05:560][ 28]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CA1' took 0.314
+[2025.10.22-16.43.05:560][ 28]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.314
+[2025.10.22-16.45.23:695][246]LogFab: Display: Asset Type = glb
+[2025.10.22-16.45.23:695][246]LogFab: Display: Is Quixel = 0
+[2025.10.22-16.45.30:105][721]LogFab: Error: Failed to download FAB Asset CC0 - Iron Fence
+[2025.10.22-16.45.56:130][625]LogSlate: Window 'Fab' being destroyed
+[2025.10.22-16.45.56:172][625]LogSlate: Window 'Fab' being destroyed
+[2025.10.22-16.45.57:633][745]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2025.10.22-16.45.57:633][745]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/listings/df234cee-0ec5-457f-9bc9-05a5cd84fb20.
+[2025.10.22-16.45.58:063][774]LogFab: Display: Logging in using persist
+[2025.10.22-16.45.58:063][774]LogEOSSDK: Warning: LogEOSAuth: No existing persistent auth credentials were found for automatic login.
+[2025.10.22-16.45.58:078][774]LogFab: Error: Login failed - error code: EOS_InvalidAuth
+[2025.10.22-16.45.58:078][774]LogFab: Display: Logging in using exchange code
+[2025.10.22-16.45.58:078][774]LogFab: Display: Reading exchange code from commandline
+[2025.10.22-16.45.58:078][774]LogEOSSDK: Error: LogEOSAuth: Invalid parameter EOS_Auth_Credentials.Token reason: must not be null or empty
+[2025.10.22-16.45.58:086][775]LogFab: Error: Login failed - error code: EOS_InvalidParameters
+[2025.10.22-16.45.59:781][907]LogEOSSDK: Error: LogEOS: EOS_Auth_CopyUserAuthToken - One or more parameters are null
+[2025.10.22-16.45.59:781][907]LogFab: Error: User auth token is invalid - unable to get auth token
+[2025.10.22-16.46.28:985][192]LogFab: Display: Asset Type = glb
+[2025.10.22-16.46.28:985][192]LogFab: Display: Is Quixel = 0
+[2025.10.22-16.46.29:476][199]LogFab: Error: Failed to download FAB Asset CC0 - Iron Fence
+[2025.10.22-16.47.59:433][593]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8301.967773
+[2025.10.22-16.47.59:561][603]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.47.59:562][603]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8302.083984, Update Interval: 315.018768
+[2025.10.22-16.49.00:052][474]LogFabLauncher: Debug payload: [{"id":"df234cee-0ec5-457f-9bc9-05a5cd84fb20","path":"C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted","meshes":[{"file":"C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/source/IronFence.fbx","name":"","material_index":-1,"lods":[]}],"materials":[],"native_files":[],"additional_textures":["C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/internal_ground_ao_texture.jpeg","C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceAlbedo.png","C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceAO.png","C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceMetal.png","C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceNormal.png","C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceRough.png"],"metadata":{"launcher":{"version":"0.0.1","listening_port":24563},"fab":{"assetNamespace":"","listing":{"averageRating":5,"createdAt":"","description":"<p></p><p><a target=\"_blank\" href=\"https://creativecommons.org/publicdomain/zero/1.0/\" rel=\"noopener noreferrer nofollow\">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</a> </p><p></p><p><strong>If you love 3D art, seek creative insights, or want unique models, welcome! Your support drives new creations and fosters a thriving creative community on </strong><a target=\"_blank\" href=\"https://www.patreon.com/plaggy\" rel=\"noopener noreferrer nofollow\"><strong>patreon.com/plaggy</strong></a> </p><p></p><p>‘Keeps you in and outers out!’</p><p></p><p>● 4096 x 4096 PBR textures</p><p></p><p>● normal map is baked from the high poly model</p><p></p><p>Please do not hesitate to contact with me. I will be happy to help you.</p><p></p><p>Contact me at https://plaggy.net</p><p></p><p>Formats: .fbx, .dae, .max, .obj, .mtl, .png, .glTF, .USDZ Polygon: 1884 Vertices: 1920 Textures: Yes, PBR (ao, albedo, metal, normal, ORM, rough) Materials: Yes UV Mapped: Yes Unwrapped UVs: Yes (non overlapping)</p><p>If you enjoy my content, I’d really appreciate it if you could hit the follow button. It’s a small step for you, but a huge leap for me. Thank you for reading!</p>","isAiForbidden":false,"isAiGenerated":false,"lastUpdatedAt":"2025-02-24T11:33:15.865248Z","listingType":"3d-model","media":"https://media.fab.com/image_previews/gallery_images/a0207f92-19e0-45c6-bd3c-a048c4a8aed2/9e962b63-bbe7-4a09-ab56-eb894e9eb4a3.jpeg","publishedAt":"2024-10-01T18:15:53.640235Z","reviewCount":1,"thumbnail":"https://media.fab.com/image_previews/gallery_images/4820d997-8f64-4809-88a0-3710fcdbd74b/8414c89a-9366-4a9e-ab32-4efd834fb53e.jpeg","title":"CC0 - Iron Fence","uid":"df234cee-0ec5-457f-9bc9-05a5cd84fb20","updatedAt":"","user":{"coverImageUrl":"https://cdn1.epicgames.com/fab/seller/o-wcu3jxf7lgtv9n48cs4743d4p7tyn2/cover/d37703de.jpg","profileImageUrl":"https://cdn1.epicgames.com/fab/seller/o-wcu3jxf7lgtv9n48cs4743d4p7tyn2/profile/796f8302.jpg","sellerName":"plaggy","uid":"8d02738d-a21b-4b49-a36e-fc1a10713163"},"tags":[{"name":"Gate","slug":"gate","uid":"02085043-de0d-43fa-8aa0-1c0cd7c68932"},{"name":"Neighbor","slug":"neighbor","uid":"08345e8b-14fe-4ca3-b6f5-0860369e9e2e"},{"name":"Outdoor","slug":"outdoor","uid":"181bde92-b89d-49e9-b28f-af570035ad72"},{"name":"Garden","slug":"garden","uid":"1f405a73-7135-4e7d-a7b2-61e5c33faebf"},{"name":"Bower","slug":"bower","uid":"438662be-3f93-438a-8282-9a4bc5903fe4"},{"name":"Arbor","slug":"arbor","uid":"48c3f344-8b5d-4169-bcf3-569690243912"},{"name":"Metal","slug":"metal","uid":"55165238-19a2-4184-85f1-e8650bd2a38d"},{"name":"Steel","slug":"steel","uid":"5bd69d4a-ba51-4523-ad8a-ec3b58a8b310"},{"name":"House","slug":"house","uid":"6596d504-e433-42e9-a760-b829827af869"},{"name":"Yard","slug":"yard","uid":"6aa5d6d4-e11f-41d2-82a3-9883098ad8c3"},{"name":"Exterior","slug":"exterior","uid":"98cde8e0-56a5-4019-8889-2b409949fdb9"},{"name":"Publicdomain","slug":"publicdomain","uid":"d734e818-8579-4fd8-9ece-167d796d7109"},{"name":"Backyard","slug":"backyard","uid":"e042123b-3c81-48d2-8ce1-052b86cc57f3"},{"name":"Park","slug":"park","uid":"e9f75692-7a17-4cc9-a59b-712f2e1b38a9"}],"category":{"name":"Buildings & Architecture","path":"buildings-architecture","slug":"buildings-architecture","uid":"eec3bdd5-ba7a-45a8-b15d-67462b9630f6"},"assetFormats":[],"_PluginMetas":{"apiDataVersion":"","entitlementUid":"","cacheSize":0,"downloaded":[]}},"target":"UE_5.6","quality":"","format":"fbx","fileId":"","platformIncluded":"","distributionPointBaseUrls":[],"distributionMethod":"","entitlementUid":"","invertedNormal":false,"isConverted":false,"isQuixel":false}}}]
+[2025.10.22-16.49.00:052][474]LogJson: Warning: Field megascans was not found.
+[2025.10.22-16.49.00:052][474]LogJson: Warning: Json Value of type 'Null' used as a 'Object'.
+[2025.10.22-16.49.00:131][474]LogStreaming: Display: FlushAsyncLoading(692): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.22-16.49.00:153][474]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2025.10.22-16.49.00:153][474]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/source/IronFence.fbx]
+[2025.10.22-16.49.00:211][474]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/internal_ground_ao_texture.jpeg)
+[2025.10.22-16.49.00:212][474]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2025.10.22-16.49.00:212][474]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2025.10.22-16.49.00:225][474]LogTexture: Display: Building textures: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture.internal_ground_ao_texture (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.10.22-16.49.00:299][474]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceAlbedo.png)
+[2025.10.22-16.49.00:495][474]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2025.10.22-16.49.00:531][474]LogTexture: Display: Building textures: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo.IronFenceAlbedo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Fast
+[2025.10.22-16.49.00:624][474]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceAO.png)
+[2025.10.22-16.49.00:753][474]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2025.10.22-16.49.00:790][474]LogTexture: Display: Building textures: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO.IronFenceAO (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Fast
+[2025.10.22-16.49.00:887][474]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceMetal.png)
+[2025.10.22-16.49.01:003][474]LogEditorFactories: Display: Auto-detected grayscale, image changed to G8
+[2025.10.22-16.49.01:003][474]LogEditorFactories: Display: Image imported as : TSF G8
+[2025.10.22-16.49.01:013][474]LogTexture: Display: Building textures: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal.IronFenceMetal (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1072.999983 MB), EncodeSpeed: Fast
+[2025.10.22-16.49.01:118][474]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceNormal.png)
+[2025.10.22-16.49.01:303][474]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2025.10.22-16.49.01:336][474]LogEditorFactories: Display: Auto-detected normal map
+[2025.10.22-16.49.01:346][474]LogTexture: Display: Building textures: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal.IronFenceNormal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.10.22-16.49.01:478][474]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/textures/IronFenceRough.png)
+[2025.10.22-16.49.01:618][474]LogEditorFactories: Display: Auto-detected grayscale, image changed to G8
+[2025.10.22-16.49.01:618][474]LogEditorFactories: Display: Image imported as : TSF G8
+[2025.10.22-16.49.01:628][474]LogTexture: Display: Building textures: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough.IronFenceRough (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1072.999983 MB), EncodeSpeed: Fast
+[2025.10.22-16.49.01:638][474]LogFabLauncher: Display: Import status 'success' sent back to EGL
+[2025.10.22-16.49.01:638][474]LogFabLauncher: Status data sent: {"status":"success", "id":"df234cee-0ec5-457f-9bc9-05a5cd84fb20", "path":"C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted", "plugin_version": "0.4.2", "message": "Successfully exported asset", "app_name" : "Unreal Engine", "app_version": "5.6"}
+[2025.10.22-16.49.02:335][477]LogStreaming: Display: FlushAsyncLoading(697): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.22-16.49.02:677][478]LogStreaming: Display: FlushAsyncLoading(698): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.22-16.49.03:014][480]LogStaticMesh: Display: Building static mesh IronFence1 (Required Memory Estimate: 5.792596 MB)...
+[2025.10.22-16.49.03:026][480]LogStaticMesh: Built static mesh [0.01s] /Game/Fab/CC0_-_Iron_Fence/IronFence1.IronFence1
+[2025.10.22-16.49.03:689][481]LogInterchangeEngine: Display: Interchange import completed [C:/Users/n00230352/D...nce_extracted/source/IronFence.fbx]
+[2025.10.22-16.49.03:689][481]Interchange: Warning: [C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/source/IronFence.fbx : '', Unknown] Renamed Assets: 
+ OriginalName:[/Game/Fab/CC0_-_Iron_Fence/IronFence] NewName:[/Game/Fab/CC0_-_Iron_Fence/IronFence1]
+[2025.10.22-16.49.03:689][481]Interchange: Warning: [C:/Users/n00230352/Desktop/VaultCache/FabLibrary/CC0_-_Iron_Fence-df234cee/fbx/cc0-iron-fence_extracted/source/IronFence.fbx : 'IronFence1', StaticMesh] No smoothing group information was found for this mesh 'Mesh' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.10.22-16.49.23:244][991]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/components/Blueprint_Door.Blueprint_Door
+[2025.10.22-16.49.23:244][991]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.10.22-16.50.08:750][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.10.22-16.50.27:940][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: ================================================
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Total job queries 938, among them cache hits 248 (26.44%), DDC hits 512 (54.58%), Duplicates 117 (12.47%)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Tracking 573 distinct input hashes that result in 391 distinct outputs (68.24%)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: RAM used: 4.68 MiB of 3.20 GiB budget. Usage: 0.14%
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Shaders Compiled: 61
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Jobs assigned 61, completed 61 (100%)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Average time worker was idle: 404.10 s
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Job execution time: average 0.59 s, max 1.23 s
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Job life time (pending + execution): average 0.65 s, max 1.31
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Shader code size: total 547.188 KiB, numShaders 64, average 8.55 KiB, min 1.727 KiB, max 14.234 KiB
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.78 s
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Average processing rate: 3.87 jobs/sec
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Total thread time: 27.148 s
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Total thread preprocess time: 12.629 s
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Percentage time preprocessing: 46.52%
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Effective parallelization: 1.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.107510
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    3 times, average 0.95 sec, max 0.99 sec, min 0.93 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   12 times, average 0.61 sec, max 0.78 sec, min 0.52 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 0.60 sec, max 0.62 sec, min 0.58 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 0.57 sec, max 0.57 sec, min 0.56 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 26.81% of total time (compiled   12 times, average 0.61 sec, max 0.78 sec, min 0.52 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.40% of total time (compiled   21 times, average 0.33 sec, max 0.44 sec, min 0.25 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 10.50% of total time (compiled    3 times, average 0.95 sec, max 0.99 sec, min 0.93 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.04% of total time (compiled    7 times, average 0.27 sec, max 0.33 sec, min 0.19 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.27% of total time (compiled    3 times, average 0.57 sec, max 0.57 sec, min 0.56 sec)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: === Material stats ===
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Materials Translated:    206
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Material Translation Only: 0.04 s (34%)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: Material Cache Hits: 41 (20%)
+[2025.10.22-16.50.41:266][660]LogShaderCompilers: Display: ================================================
+[2025.10.22-16.51.08:539][184]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.51.09:292][272]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.51.09:658][316]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.51.10:142][374]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.51.12:431][646]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.51.12:871][691]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.51.14:572][893]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.51.45:144][214]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.51.45:144][214]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.51.45:151][214]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 7.649 ms (total: 40.887 ms)
+[2025.10.22-16.51.45:151][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.51.45:151][214]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.51.45:166][214]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.51.45:169][214]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.077 ms (total: 50.966 ms)
+[2025.10.22-16.51.45:169][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016810s)
+[2025.10.22-16.51.45:169][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.016837s)
+[2025.10.22-16.51.45:194][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.22-16.51.45:197][214]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.51.45:198][214]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.51.45:198][214]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.51.45:198][214]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.51.45:198][214]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.51.45:202][214]LogWorldPartition: Display: WorldPartition initialize took 3.604 ms (total: 211.316 ms)
+[2025.10.22-16.51.45:202][214]LogPlayLevel: PIE: World Init took: (0.005212s)
+[2025.10.22-16.51.45:202][214]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.10.22-16.51.45:202][214]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.51.45:202][214]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.51.45:202][214]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.51.45:202][214]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.51.45:202][214]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.51.45:202][214]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.51.45:202][214]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.51.45:202][214]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.51.45:202][214]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.51.45:202][214]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.51.45:202][214]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.51.45:205][214]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.51.45:231][214]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.51.45:231][214]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.51.45:231][214]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.51.45:231][214]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.51.45:232][214]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.10.22-16.51.45:232][214]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.10.22-16.51.45:235][214]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.10.22-16.51.45:235][214]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.10.22-16.51.45:235][214]LogInit: FAudioDevice initialized with ID 18.
+[2025.10.22-16.51.45:235][214]LogAudio: Display: Audio Device (ID: 18) registered with world 'CA1'.
+[2025.10.22-16.51.45:235][214]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.10.22-16.51.45:309][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.51.45:310][214]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.51.45:316][214]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.51.45
+[2025.10.22-16.51.45:316][214]LogWorld: Bringing up level for play took: 0.006488
+[2025.10.22-16.51.45:319][214]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.10.22-16.51.45:326][214]PIE: Server logged in
+[2025.10.22-16.51.45:327][214]PIE: Play in editor total start time 0.184 seconds.
+[2025.10.22-16.51.45:350][215]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2025.10.22-16.51.45:350][215]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2025.10.22-16.51.50:332][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.51.50:332][798]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.51.50:333][798]LogSlate: Window 'GiorgiaCavalleriCA1 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.22-16.51.50:340][798]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.51.50:342][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.51.50:342][798]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.51.50:345][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.51.50:347][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.51.50:370][798]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-16.51.50:371][798]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.10.22-16.51.50:371][798]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2025.10.22-16.51.50:372][798]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2025.10.22-16.51.50:380][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.10.22-16.51.50:481][799]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.10.22-16.51.54:172][227]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-16.53.11:617][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.10.22-16.53.11:629][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/D/XV/PGA5RE69U6H8F357MW4MH6_Auto7
+[2025.10.22-16.53.11:629][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/PGA5RE69U6H8F357MW4MH6_Auto7C0B799784A3F0538B5C8C7AD752E258F.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/D/XV/PGA5RE69U6H8F357MW4MH6_Auto7.uasset'
+[2025.10.22-16.53.11:631][529]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CA1' took 0.033
+[2025.10.22-16.53.11:631][529]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2025.10.22-16.53.11:632][529]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/components/Blueprint_Door] ([2] browsable assets)...
+[2025.10.22-16.53.11:664][529]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/components/Blueprint_Door.Blueprint_Door]
+[2025.10.22-16.53.11:664][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/components/Blueprint_Door]
+[2025.10.22-16.53.11:677][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/components/Blueprint_Door_Auto7
+[2025.10.22-16.53.11:677][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Blueprint_Door_Auto710C87EA34C6101EDD13C1E861EBF903F.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/components/Blueprint_Door_Auto7.uasset'
+[2025.10.22-16.53.11:678][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture] ([1] browsable assets)...
+[2025.10.22-16.53.11:680][529]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture.internal_ground_ao_texture]
+[2025.10.22-16.53.11:680][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture]
+[2025.10.22-16.53.11:685][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture_Auto7
+[2025.10.22-16.53.11:685][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/internal_ground_ao_texture_Auto7CA7CB88E4D5188CACF9F7E905C4A4ACF.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture_Auto7.uasset'
+[2025.10.22-16.53.11:686][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo] ([1] browsable assets)...
+[2025.10.22-16.53.11:688][529]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo.IronFenceAlbedo]
+[2025.10.22-16.53.11:688][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo]
+[2025.10.22-16.53.11:743][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo_Auto7
+[2025.10.22-16.53.11:743][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceAlbedo_Auto761B6F2BD42B422910394708B0E213B4C.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo_Auto7.uasset'
+[2025.10.22-16.53.11:744][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO] ([1] browsable assets)...
+[2025.10.22-16.53.11:747][529]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO.IronFenceAO]
+[2025.10.22-16.53.11:747][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO]
+[2025.10.22-16.53.11:799][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO_Auto7
+[2025.10.22-16.53.11:799][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceAO_Auto7D9DDE9BC46D6943FFFABA1B01FD9B1F0.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO_Auto7.uasset'
+[2025.10.22-16.53.11:802][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal] ([1] browsable assets)...
+[2025.10.22-16.53.11:804][529]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal.IronFenceMetal]
+[2025.10.22-16.53.11:804][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal]
+[2025.10.22-16.53.11:819][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal_Auto7
+[2025.10.22-16.53.11:819][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceMetal_Auto7E065BC9F4B1B038D21235EBA7C7B5C29.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal_Auto7.uasset'
+[2025.10.22-16.53.11:820][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal] ([1] browsable assets)...
+[2025.10.22-16.53.11:821][529]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal.IronFenceNormal]
+[2025.10.22-16.53.11:821][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal]
+[2025.10.22-16.53.11:874][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal_Auto7
+[2025.10.22-16.53.11:874][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceNormal_Auto7258368F54C78CD166F4A9EBD93786F65.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal_Auto7.uasset'
+[2025.10.22-16.53.11:875][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough] ([1] browsable assets)...
+[2025.10.22-16.53.11:877][529]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough.IronFenceRough]
+[2025.10.22-16.53.11:877][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough]
+[2025.10.22-16.53.11:892][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough_Auto7
+[2025.10.22-16.53.11:892][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceRough_Auto782847D0C4C21B202D1F03E96B6B841DF.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough_Auto7.uasset'
+[2025.10.22-16.53.11:893][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/IronFence] ([1] browsable assets)...
+[2025.10.22-16.53.12:754][529]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Fab/CC0_-_Iron_Fence/IronFence.IronFence]
+[2025.10.22-16.53.12:754][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/IronFence]
+[2025.10.22-16.53.12:764][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence_Auto7
+[2025.10.22-16.53.12:764][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFence_Auto7DB3DC92F4695852408F017B086835ED2.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence_Auto7.uasset'
+[2025.10.22-16.53.12:765][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/IronFence1] ([1] browsable assets)...
+[2025.10.22-16.53.12:770][529]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Fab/CC0_-_Iron_Fence/IronFence1.IronFence1]
+[2025.10.22-16.53.12:771][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/IronFence1]
+[2025.10.22-16.53.12:781][529]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence1_Auto7
+[2025.10.22-16.53.12:781][529]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFence1_Auto7A36CB54E4DE63889CF4F4FB77DEC6B94.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence1_Auto7.uasset'
+[2025.10.22-16.53.12:782][529]LogFileHelpers: Auto-saving content packages took 1.151
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: ================================================
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Total job queries 947, among them cache hits 249 (26.29%), DDC hits 512 (54.07%), Duplicates 118 (12.46%)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Tracking 580 distinct input hashes that result in 396 distinct outputs (68.28%)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: RAM used: 4.72 MiB of 3.20 GiB budget. Usage: 0.14%
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Shaders Compiled: 68
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Jobs assigned 68, completed 68 (100%)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Average time worker was idle: 729.62 s
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 1.23 s
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 1.31
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Shader code size: total 609.934 KiB, numShaders 71, average 8.59 KiB, min 1.727 KiB, max 14.234 KiB
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.62 s
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Jobs were issued in 68 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Average processing rate: 4.09 jobs/sec
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Total thread time: 29.174 s
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Total thread preprocess time: 12.705 s
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Percentage time preprocessing: 43.55%
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Effective parallelization: 1.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.109721
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    3 times, average 0.95 sec, max 0.99 sec, min 0.93 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   12 times, average 0.61 sec, max 0.78 sec, min 0.52 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 0.60 sec, max 0.62 sec, min 0.58 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    4 times, average 0.57 sec, max 0.59 sec, min 0.56 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 24.95% of total time (compiled   12 times, average 0.61 sec, max 0.78 sec, min 0.52 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.63% of total time (compiled   21 times, average 0.33 sec, max 0.44 sec, min 0.25 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 9.77% of total time (compiled    3 times, average 0.95 sec, max 0.99 sec, min 0.93 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.85% of total time (compiled    4 times, average 0.57 sec, max 0.59 sec, min 0.56 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.55% of total time (compiled    7 times, average 0.27 sec, max 0.33 sec, min 0.19 sec)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: === Material stats ===
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Materials Translated:    206
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Material Translation Only: 0.04 s (34%)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: Material Cache Hits: 41 (20%)
+[2025.10.22-16.53.41:466][616]LogShaderCompilers: Display: ================================================
+[2025.10.22-16.53.44:466][625]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.53.44:472][625]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.53.44:472][625]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.53.44:478][625]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 6.371 ms (total: 47.258 ms)
+[2025.10.22-16.53.44:479][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.53.44:479][625]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.53.44:489][625]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.53.44:493][625]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.647 ms (total: 53.613 ms)
+[2025.10.22-16.53.44:493][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013974s)
+[2025.10.22-16.53.44:493][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.014009s)
+[2025.10.22-16.53.44:513][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.10.22-16.53.44:514][625]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.53.44:515][625]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.53.44:515][625]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.53.44:515][625]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.53.44:515][625]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.53.44:518][625]LogWorldPartition: Display: WorldPartition initialize took 2.885 ms (total: 214.202 ms)
+[2025.10.22-16.53.44:518][625]LogPlayLevel: PIE: World Init took: (0.004305s)
+[2025.10.22-16.53.44:519][625]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.10.22-16.53.44:519][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.53.44:519][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.53.44:519][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.53.44:519][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.53.44:519][625]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.53.44:519][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.53.44:519][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.53.44:519][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.53.44:519][625]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.53.44:519][625]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.53.44:519][625]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.53.44:521][625]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.53.44:541][625]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.53.44:541][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.53.44:541][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.53.44:541][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.53.44:542][625]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.10.22-16.53.44:542][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.10.22-16.53.44:544][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.10.22-16.53.44:544][625]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.10.22-16.53.44:544][625]LogInit: FAudioDevice initialized with ID 19.
+[2025.10.22-16.53.44:544][625]LogAudio: Display: Audio Device (ID: 19) registered with world 'CA1'.
+[2025.10.22-16.53.44:544][625]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.10.22-16.53.44:547][625]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.53.44:553][625]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.53.44
+[2025.10.22-16.53.44:553][625]LogWorld: Bringing up level for play took: 0.005273
+[2025.10.22-16.53.44:555][625]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.10.22-16.53.44:559][625]PIE: Server logged in
+[2025.10.22-16.53.44:560][625]PIE: Play in editor total start time 0.088 seconds.
+[2025.10.22-16.53.55:237][881]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8657.943359
+[2025.10.22-16.53.55:363][896]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.53.55:363][896]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8658.060547, Update Interval: 302.503113
+[2025.10.22-16.58.03:794][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.58.03:794][525]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.58.03:794][525]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.58.03:796][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.58.03:797][525]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.58.03:800][525]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.58.03:803][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.58.03:825][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.58.03:825][525]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.10.22-16.58.03:825][525]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2025.10.22-16.58.03:828][525]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2025.10.22-16.58.03:838][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.10.22-16.58.03:903][526]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.10.22-16.58.21:543][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.10.22-16.59.50:551][796]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9013.265625
+[2025.10.22-16.59.51:554][799]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.59.51:554][799]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9013.932617, Update Interval: 309.307526
+[2025.10.22-17.03.50:235][125]LogEditorTransaction: Undo Add Node
+[2025.10.22-17.03.50:905][145]LogEditorTransaction: Undo Move Node
+[2025.10.22-17.03.51:378][196]LogEditorTransaction: Undo Move Node
+[2025.10.22-17.03.51:752][235]LogEditorTransaction: Undo Move Node
+[2025.10.22-17.03.52:186][281]LogEditorTransaction: Undo Break Pin Links
+[2025.10.22-17.03.52:610][326]LogEditorTransaction: Undo Break Pin Links
+[2025.10.22-17.03.53:041][372]LogEditorTransaction: Undo Move Node
+[2025.10.22-17.03.55:259][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.10.22-17.04.28:285][179]Cmd: DELETE
+[2025.10.22-17.04.28:285][179]Cmd: ACTOR DELETE
+[2025.10.22-17.04.28:294][179]LogEditorActor: Deleted Actor: Blueprint_Door_C
+[2025.10.22-17.04.28:318][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.10.22-17.04.28:323][179]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2025.10.22-17.04.35:516][937]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/components/Blueprint_Door.Blueprint_Door_C
+[2025.10.22-17.04.35:516][937]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/components/Blueprint_Door.Blueprint_Door_C
+[2025.10.22-17.04.35:518][937]LogActorFactory: Actor Factory spawned Blueprint /Game/components/Blueprint_Door.Blueprint_Door as actor: Blueprint_Door_C /Game/CA1.CA1:PersistentLevel.Blueprint_Door_C_0
+[2025.10.22-17.04.35:519][937]LogActorFactory: Actor Factory spawned Blueprint /Game/components/Blueprint_Door.Blueprint_Door as actor: Blueprint_Door_C /Game/CA1.CA1:PersistentLevel.Blueprint_Door_C_0
+[2025.10.22-17.04.36:904][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.10.22-17.04.36:906][ 97]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2025.10.22-17.04.36:911][ 97]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/components/Blueprint_Door.Blueprint_Door_C
+[2025.10.22-17.04.36:911][ 97]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/components/Blueprint_Door.Blueprint_Door_C
+[2025.10.22-17.04.36:914][ 97]LogActorFactory: Actor Factory spawned Blueprint /Game/components/Blueprint_Door.Blueprint_Door as actor: Blueprint_Door_C /Game/CA1.CA1:PersistentLevel.Blueprint_Door_C_UAID_D0460C83875EE99A02_1682783128
+[2025.10.22-17.04.36:916][ 97]LogActorFactory: Actor Factory spawned Blueprint /Game/components/Blueprint_Door.Blueprint_Door as actor: Blueprint_Door_C /Game/CA1.CA1:PersistentLevel.Blueprint_Door_C_UAID_D0460C83875EE99A02_1682783128
+[2025.10.22-17.05.00:259][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.10.22-17.05.11:117][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.22-17.05.40:912][297]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-17.05.41:062][313]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9363.762695
+[2025.10.22-17.05.41:180][327]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-17.05.41:180][327]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9363.872070, Update Interval: 323.747681
+[2025.10.22-17.05.43:765][614]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-17.05.58:098][240]LogRenderer: Display: Virtual shadow map cache invalidated for light due to clipmap level count change
+[2025.10.22-17.06.36:354][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.22-17.07.57:777][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.10.22-17.09.01:796][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.22-17.09.37:877][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.22-17.09.37:897][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/0/8K/962U30699Q7KNP02RRZMDU_Auto8
+[2025.10.22-17.09.37:897][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/962U30699Q7KNP02RRZMDU_Auto81308D6FC4A7E213CB6EACF85AA3F146D.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/0/8K/962U30699Q7KNP02RRZMDU_Auto8.uasset'
+[2025.10.22-17.09.37:912][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/1/8Z/T4TD16RQV5RI1Z6BO69YK0_Auto8
+[2025.10.22-17.09.37:912][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/T4TD16RQV5RI1Z6BO69YK0_Auto8C2959A6342997C9EA8BFCCA8BCFCA210.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/1/8Z/T4TD16RQV5RI1Z6BO69YK0_Auto8.uasset'
+[2025.10.22-17.09.37:923][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/4/NZ/5A0QBU8IV50EHXSNISWVV4_Auto8
+[2025.10.22-17.09.37:923][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/5A0QBU8IV50EHXSNISWVV4_Auto8C3485B66458AC766E8F721A944968292.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/4/NZ/5A0QBU8IV50EHXSNISWVV4_Auto8.uasset'
+[2025.10.22-17.09.37:935][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/4/Z2/BWGNEEKMNFB4694J92RX0P_Auto8
+[2025.10.22-17.09.37:935][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/BWGNEEKMNFB4694J92RX0P_Auto81B653D82457155CD532B22BB9D9ADB81.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/4/Z2/BWGNEEKMNFB4694J92RX0P_Auto8.uasset'
+[2025.10.22-17.09.37:948][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/7/67/541FD3G7TNQ9DFIJC1KCEC_Auto8
+[2025.10.22-17.09.37:949][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/541FD3G7TNQ9DFIJC1KCEC_Auto868CBDD3C4E18576E4269C0A70254E61C.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/7/67/541FD3G7TNQ9DFIJC1KCEC_Auto8.uasset'
+[2025.10.22-17.09.37:965][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/7/8A/QY4OFGNYMDVF94W11900WG_Auto8
+[2025.10.22-17.09.37:965][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/QY4OFGNYMDVF94W11900WG_Auto8F3E53A28418FECAB3F49C18FA8F15389.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/7/8A/QY4OFGNYMDVF94W11900WG_Auto8.uasset'
+[2025.10.22-17.09.37:978][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/7/XU/4FJM32N4I6GWKCRXD89KF6_Auto8
+[2025.10.22-17.09.37:979][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/4FJM32N4I6GWKCRXD89KF6_Auto809674892486737A0C738ECA11DE72DE5.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/7/XU/4FJM32N4I6GWKCRXD89KF6_Auto8.uasset'
+[2025.10.22-17.09.37:994][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/9/BC/8A2EW50TBACL4HVVXXF17D_Auto8
+[2025.10.22-17.09.37:995][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/8A2EW50TBACL4HVVXXF17D_Auto84CB6C22A4E260635A364569D1958C01D.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/9/BC/8A2EW50TBACL4HVVXXF17D_Auto8.uasset'
+[2025.10.22-17.09.38:009][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/B/1M/B0JFS2EC8CHTR4T65OENR6_Auto8
+[2025.10.22-17.09.38:009][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/B0JFS2EC8CHTR4T65OENR6_Auto8934031644219B65B196FB897E5746160.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/B/1M/B0JFS2EC8CHTR4T65OENR6_Auto8.uasset'
+[2025.10.22-17.09.38:019][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/B/U1/8B4VMGUPZZ4KZJ1J9472RV_Auto8
+[2025.10.22-17.09.38:020][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/8B4VMGUPZZ4KZJ1J9472RV_Auto868F0ADCF40AFF094255AEE871CD6CE1D.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/B/U1/8B4VMGUPZZ4KZJ1J9472RV_Auto8.uasset'
+[2025.10.22-17.09.38:034][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/B/Z2/69C31ZG1B3Y129BVC0CQCO_Auto8
+[2025.10.22-17.09.38:035][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/69C31ZG1B3Y129BVC0CQCO_Auto80F2ED4DE46CF81AF32FA7386D2953A47.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/B/Z2/69C31ZG1B3Y129BVC0CQCO_Auto8.uasset'
+[2025.10.22-17.09.38:051][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/D/RT/KGQ74KGSCMQDTQAWB96GNJ_Auto8
+[2025.10.22-17.09.38:051][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/KGQ74KGSCMQDTQAWB96GNJ_Auto80C38C3124FE22264A379E28CAF4099D7.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/D/RT/KGQ74KGSCMQDTQAWB96GNJ_Auto8.uasset'
+[2025.10.22-17.09.38:064][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/D/YL/31DOYTLOBFXC01UK340DFJ_Auto8
+[2025.10.22-17.09.38:064][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/31DOYTLOBFXC01UK340DFJ_Auto83BD01D444D0F49CEEABBDFB90815F5CA.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/D/YL/31DOYTLOBFXC01UK340DFJ_Auto8.uasset'
+[2025.10.22-17.09.38:079][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/E/83/5ALOC8V6LWMMAZQC7O8YEE_Auto8
+[2025.10.22-17.09.38:080][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/5ALOC8V6LWMMAZQC7O8YEE_Auto8FC5D880B4319751653AD4FB3D4EC0E02.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/E/83/5ALOC8V6LWMMAZQC7O8YEE_Auto8.uasset'
+[2025.10.22-17.09.38:092][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/E/H5/P4WC4GNMUAT1EUV538CB10_Auto8
+[2025.10.22-17.09.38:093][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/P4WC4GNMUAT1EUV538CB10_Auto8383B2C5E43AADCF4416D29B666864F60.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/E/H5/P4WC4GNMUAT1EUV538CB10_Auto8.uasset'
+[2025.10.22-17.09.38:100][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1_Auto8
+[2025.10.22-17.09.38:100][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/OO9YR34HUAF0LL55FU7YL1_Auto893A87E9B4AC966AB9C5BAE9C0D8C2D66.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1_Auto8.uasset'
+[2025.10.22-17.09.38:108][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/E/SR/AG7LE6R5EGGFF6FN4DUM0B_Auto8
+[2025.10.22-17.09.38:108][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/AG7LE6R5EGGFF6FN4DUM0B_Auto8F001037540B62D7045EA0EB13F2D5825.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/E/SR/AG7LE6R5EGGFF6FN4DUM0B_Auto8.uasset'
+[2025.10.22-17.09.38:109][837]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CA1' took 0.253
+[2025.10.22-17.09.38:109][837]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.253
+[2025.10.22-17.09.38:109][837]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/components/Blueprint_Door] ([2] browsable assets)...
+[2025.10.22-17.09.38:123][837]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/components/Blueprint_Door.Blueprint_Door]
+[2025.10.22-17.09.38:123][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/components/Blueprint_Door]
+[2025.10.22-17.09.38:136][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/components/Blueprint_Door_Auto8
+[2025.10.22-17.09.38:137][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Blueprint_Door_Auto8F4A893A247156267CE9CC890E7BB52FC.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/components/Blueprint_Door_Auto8.uasset'
+[2025.10.22-17.09.38:138][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture] ([1] browsable assets)...
+[2025.10.22-17.09.38:138][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture]
+[2025.10.22-17.09.38:142][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture_Auto8
+[2025.10.22-17.09.38:142][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/internal_ground_ao_texture_Auto86E8C142245993009DDF5BAB39846F429.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture_Auto8.uasset'
+[2025.10.22-17.09.38:144][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo] ([1] browsable assets)...
+[2025.10.22-17.09.38:144][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo]
+[2025.10.22-17.09.38:199][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo_Auto8
+[2025.10.22-17.09.38:199][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceAlbedo_Auto89699BBC3400C8E795BC1ED83F9F308C7.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo_Auto8.uasset'
+[2025.10.22-17.09.38:200][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO] ([1] browsable assets)...
+[2025.10.22-17.09.38:200][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO]
+[2025.10.22-17.09.38:256][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO_Auto8
+[2025.10.22-17.09.38:256][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceAO_Auto86BF48B364A7C3A3ADF4F4EB9EC630E09.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO_Auto8.uasset'
+[2025.10.22-17.09.38:258][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal] ([1] browsable assets)...
+[2025.10.22-17.09.38:258][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal]
+[2025.10.22-17.09.38:274][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal_Auto8
+[2025.10.22-17.09.38:274][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceMetal_Auto82554A8104CCF10C0CA757F9CC4F7D74F.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal_Auto8.uasset'
+[2025.10.22-17.09.38:274][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal] ([1] browsable assets)...
+[2025.10.22-17.09.38:274][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal]
+[2025.10.22-17.09.38:328][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal_Auto8
+[2025.10.22-17.09.38:328][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceNormal_Auto87B3B998049433D31084976B9BF600201.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal_Auto8.uasset'
+[2025.10.22-17.09.38:329][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough] ([1] browsable assets)...
+[2025.10.22-17.09.38:329][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough]
+[2025.10.22-17.09.38:343][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough_Auto8
+[2025.10.22-17.09.38:343][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceRough_Auto86573C38348ADB301C0F5DC956E70C3CE.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough_Auto8.uasset'
+[2025.10.22-17.09.38:345][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/IronFence] ([1] browsable assets)...
+[2025.10.22-17.09.38:345][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/IronFence]
+[2025.10.22-17.09.38:352][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence_Auto8
+[2025.10.22-17.09.38:352][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFence_Auto860DE23EC408C70F5045F0CBF9F923D13.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence_Auto8.uasset'
+[2025.10.22-17.09.38:352][837]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/IronFence1] ([1] browsable assets)...
+[2025.10.22-17.09.38:352][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/IronFence1]
+[2025.10.22-17.09.38:360][837]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence1_Auto8
+[2025.10.22-17.09.38:360][837]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFence1_Auto8AE9B6DF441BDFAC29E63FE82566A6DEC.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/Fab/CC0_-_Iron_Fence/IronFence1_Auto8.uasset'
+[2025.10.22-17.09.38:361][837]LogFileHelpers: Auto-saving content packages took 0.252
+[2025.10.22-17.09.49:777][393]LogSlate: Window 'Message' being destroyed
+[2025.10.22-17.09.49:790][393]Message dialog closed, result: Yes, title: Message, text: CA1 already exists. Do you want to replace it?
+[2025.10.22-17.09.49:791][393]LogSlate: Window 'Save Level As' being destroyed
+[2025.10.22-17.09.49:854][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CA1" FILE="../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/CA1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.22-17.09.49:880][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.10.22-17.09.49:891][393]LogSavePackage: Moving output files for package: /Game/CA1
+[2025.10.22-17.09.49:891][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/CA111B21C2A4C697C15A144A9A024197D61.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/CA1.umap'
+[2025.10.22-17.09.49:897][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.22-17.09.49:919][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.10.22-17.09.49:939][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.10.22-17.09.49:957][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.10.22-17.09.49:961][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_0_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:961][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_0_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:962][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_0_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:964][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:964][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:965][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:965][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_0_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:966][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:966][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_0_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:967][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:967][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_3_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:967][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:968][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:968][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:969][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_0_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:969][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:970][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:970][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:970][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_1_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:972][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_2_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:972][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_2_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:972][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:973][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:973][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:973][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_2_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:974][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:974][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:974][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:975][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_1_3_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:975][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:976][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_0_1_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:976][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:976][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:977][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:977][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_3_3_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:977][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:978][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:978][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_4 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.49:979][393]LogTexture: Display: Building textures: /Game/CA1.CA1:PersistentLevel.LandscapeStreamingProxy_E96840EEGB6YSOD09ZKFVGZ3G_126_2_3_0.Heightmap_6 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.10.22-17.09.50:001][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/0/8K/962U30699Q7KNP02RRZMDU
+[2025.10.22-17.09.50:002][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/962U30699Q7KNP02RRZMDU53DE2A2C45DC90A61FBAEAB1F412D028.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/0/8K/962U30699Q7KNP02RRZMDU.uasset'
+[2025.10.22-17.09.50:017][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/1/8Z/T4TD16RQV5RI1Z6BO69YK0
+[2025.10.22-17.09.50:017][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/T4TD16RQV5RI1Z6BO69YK01A815D6149E8D257F2E3839AE0E137A5.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/1/8Z/T4TD16RQV5RI1Z6BO69YK0.uasset'
+[2025.10.22-17.09.50:028][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/4/NZ/5A0QBU8IV50EHXSNISWVV4
+[2025.10.22-17.09.50:028][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/5A0QBU8IV50EHXSNISWVV489FC210A4CBF7B07A160FEA9DC34F739.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/4/NZ/5A0QBU8IV50EHXSNISWVV4.uasset'
+[2025.10.22-17.09.50:039][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/4/Z2/BWGNEEKMNFB4694J92RX0P
+[2025.10.22-17.09.50:041][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/BWGNEEKMNFB4694J92RX0P8DE9F0D54D28CCCED9F92F9A49237F1E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/4/Z2/BWGNEEKMNFB4694J92RX0P.uasset'
+[2025.10.22-17.09.50:056][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/7/67/541FD3G7TNQ9DFIJC1KCEC
+[2025.10.22-17.09.50:057][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/541FD3G7TNQ9DFIJC1KCEC06E31BEE4F1F3EC8D3FAAF847FE80A36.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/7/67/541FD3G7TNQ9DFIJC1KCEC.uasset'
+[2025.10.22-17.09.50:072][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/7/8A/QY4OFGNYMDVF94W11900WG
+[2025.10.22-17.09.50:072][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/QY4OFGNYMDVF94W11900WG7AA829694F38D562802CC7AAFCFFC839.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/7/8A/QY4OFGNYMDVF94W11900WG.uasset'
+[2025.10.22-17.09.50:088][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/7/XU/4FJM32N4I6GWKCRXD89KF6
+[2025.10.22-17.09.50:089][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/4FJM32N4I6GWKCRXD89KF6EFF3D46E45EA02D7BB77CCA7D74AAC7E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/7/XU/4FJM32N4I6GWKCRXD89KF6.uasset'
+[2025.10.22-17.09.50:103][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/9/BC/8A2EW50TBACL4HVVXXF17D
+[2025.10.22-17.09.50:103][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/8A2EW50TBACL4HVVXXF17D225D83E04B0335B411FB1D90864D1322.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/9/BC/8A2EW50TBACL4HVVXXF17D.uasset'
+[2025.10.22-17.09.50:117][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/B/1M/B0JFS2EC8CHTR4T65OENR6
+[2025.10.22-17.09.50:117][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/B0JFS2EC8CHTR4T65OENR687DF396748C633669931A8B2D123691E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/B/1M/B0JFS2EC8CHTR4T65OENR6.uasset'
+[2025.10.22-17.09.50:129][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/B/U1/8B4VMGUPZZ4KZJ1J9472RV
+[2025.10.22-17.09.50:129][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/8B4VMGUPZZ4KZJ1J9472RV117AC8B1453D42DD7E78928A260547EA.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/B/U1/8B4VMGUPZZ4KZJ1J9472RV.uasset'
+[2025.10.22-17.09.50:146][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/B/Z2/69C31ZG1B3Y129BVC0CQCO
+[2025.10.22-17.09.50:146][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/69C31ZG1B3Y129BVC0CQCO0EB5261D402E995BA6B3CAABF5AF0672.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/B/Z2/69C31ZG1B3Y129BVC0CQCO.uasset'
+[2025.10.22-17.09.50:161][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/D/RT/KGQ74KGSCMQDTQAWB96GNJ
+[2025.10.22-17.09.50:161][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/KGQ74KGSCMQDTQAWB96GNJ8140BAAE4C3DE1AB43D47E9AD30F0C55.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/D/RT/KGQ74KGSCMQDTQAWB96GNJ.uasset'
+[2025.10.22-17.09.50:173][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/D/YL/31DOYTLOBFXC01UK340DFJ
+[2025.10.22-17.09.50:173][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/31DOYTLOBFXC01UK340DFJ4EAF760D4956F9272CADA8BA9178EC37.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/D/YL/31DOYTLOBFXC01UK340DFJ.uasset'
+[2025.10.22-17.09.50:189][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/E/83/5ALOC8V6LWMMAZQC7O8YEE
+[2025.10.22-17.09.50:189][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/5ALOC8V6LWMMAZQC7O8YEEC78086F5456FDAE195F3AB8F47AA87F3.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/E/83/5ALOC8V6LWMMAZQC7O8YEE.uasset'
+[2025.10.22-17.09.50:206][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/E/H5/P4WC4GNMUAT1EUV538CB10
+[2025.10.22-17.09.50:206][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/P4WC4GNMUAT1EUV538CB10F126DF6645519383DF64F095A6D7543E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/E/H5/P4WC4GNMUAT1EUV538CB10.uasset'
+[2025.10.22-17.09.50:213][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1
+[2025.10.22-17.09.50:213][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/OO9YR34HUAF0LL55FU7YL1D7AA55994F4A5A1915762193EEA807B8.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/4/H3/OO9YR34HUAF0LL55FU7YL1.uasset'
+[2025.10.22-17.09.50:219][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/E/SR/AG7LE6R5EGGFF6FN4DUM0B
+[2025.10.22-17.09.50:219][393]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/AG7LE6R5EGGFF6FN4DUM0B6F2270FD4A10F74A4314B1B813C4160E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/E/SR/AG7LE6R5EGGFF6FN4DUM0B.uasset'
+[2025.10.22-17.09.50:220][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 323.808 ms (total: 555.587 ms)
+[2025.10.22-17.09.50:227][393]LogFileHelpers: Saving map 'CA1' took 0.429
+[2025.10.22-17.09.50:227][393]Cmd: MAP LOAD FILE="../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/CA1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.22-17.09.50:238][393]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.09.50:238][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.09.50:238][393]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/CA1.CA1
+[2025.10.22-17.09.50:262][393]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-17.09.50:266][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.10.22-17.09.50:268][393]LogStreaming: Display: FlushAsyncLoading(699): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.22-17.09.50:281][393]LogAudio: Display: Audio Device (ID: 1) registered with world 'CA1'.
+[2025.10.22-17.09.50:281][393]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-17.09.50:282][393]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.22-17.09.50:282][393]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-17.09.50:282][393]LogWorldPartition: UWorldPartition::Initialize : World = /Game/CA1.CA1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-17.09.50:575][393]LogWorldPartition: Display: WorldPartition initialize took 291.986 ms (total: 506.188 ms)
+[2025.10.22-17.09.50:624][393]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.22-17.09.50:648][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.10.22-17.09.50:653][393]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.22-17.09.50:654][393]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.447ms to complete.
+[2025.10.22-17.09.50:727][393]LogContentValidation: Display: Starting to validate 18 assets
+[2025.10.22-17.09.50:727][393]LogContentValidation: Enabled validators:
+[2025.10.22-17.09.50:727][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.22-17.09.50:727][393]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.22-17.09.50:727][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.22-17.09.50:727][393]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.22-17.09.50:727][393]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.22-17.09.50:727][393]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.22-17.09.50:727][393]AssetCheck: /Game/CA1 Validating asset
+[2025.10.22-17.09.50:771][393]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.22-17.09.54:165][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.22-17.09.55:197][685]LogSlate: Window 'Save Content' being destroyed
+[2025.10.22-17.09.55:210][685]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.22-17.09.55:277][685]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/components/Blueprint_Door] ([2] browsable assets)...
+[2025.10.22-17.09.55:277][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/components/Blueprint_Door]
+[2025.10.22-17.09.55:277][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/components/Blueprint_Door" FILE="../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/components/Blueprint_Door.uasset" SILENT=true
+[2025.10.22-17.09.55:288][685]LogSavePackage: Moving output files for package: /Game/components/Blueprint_Door
+[2025.10.22-17.09.55:288][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Blueprint_Door199D0A6C43A2A7D708852198689497A2.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/components/Blueprint_Door.uasset'
+[2025.10.22-17.09.55:289][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/IronFence] ([1] browsable assets)...
+[2025.10.22-17.09.55:289][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/IronFence]
+[2025.10.22-17.09.55:289][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/CC0_-_Iron_Fence/IronFence" FILE="../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/IronFence.uasset" SILENT=true
+[2025.10.22-17.09.55:296][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/IronFence
+[2025.10.22-17.09.55:296][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceECB826424415B84FCBE6A0B1AA43A271.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/IronFence.uasset'
+[2025.10.22-17.09.55:297][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/IronFence1] ([1] browsable assets)...
+[2025.10.22-17.09.55:297][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/IronFence1]
+[2025.10.22-17.09.55:297][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/CC0_-_Iron_Fence/IronFence1" FILE="../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/IronFence1.uasset" SILENT=true
+[2025.10.22-17.09.55:305][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/IronFence1
+[2025.10.22-17.09.55:305][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFence1352B7E214043809DBCB33B94A3E1D05F.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/IronFence1.uasset'
+[2025.10.22-17.09.55:306][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO] ([1] browsable assets)...
+[2025.10.22-17.09.55:306][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO]
+[2025.10.22-17.09.55:365][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO
+[2025.10.22-17.09.55:365][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceAOD15671CF4BCB4B3F2925AE845F3E08F1.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO.uasset'
+[2025.10.22-17.09.55:368][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo] ([1] browsable assets)...
+[2025.10.22-17.09.55:368][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo]
+[2025.10.22-17.09.55:451][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo
+[2025.10.22-17.09.55:451][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceAlbedoB754882046464B550144DA87F72ECE2E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo.uasset'
+[2025.10.22-17.09.55:452][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal] ([1] browsable assets)...
+[2025.10.22-17.09.55:452][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal]
+[2025.10.22-17.09.55:486][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal
+[2025.10.22-17.09.55:486][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceMetal3157674A4E37B35B6CCB889FA8970AF9.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal.uasset'
+[2025.10.22-17.09.55:488][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal] ([1] browsable assets)...
+[2025.10.22-17.09.55:488][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal]
+[2025.10.22-17.09.55:590][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal
+[2025.10.22-17.09.55:590][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceNormal212C3BF84A4144627745889C6351B23B.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal.uasset'
+[2025.10.22-17.09.55:591][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough] ([1] browsable assets)...
+[2025.10.22-17.09.55:591][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough]
+[2025.10.22-17.09.55:629][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough
+[2025.10.22-17.09.55:629][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/IronFenceRough6C4CC7DD46CC753471BE49BA36B731B9.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough.uasset'
+[2025.10.22-17.09.55:630][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture] ([1] browsable assets)...
+[2025.10.22-17.09.55:630][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture]
+[2025.10.22-17.09.55:636][685]LogSavePackage: Moving output files for package: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture
+[2025.10.22-17.09.55:636][685]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/internal_ground_ao_texture8D8174364E663C61E08D579A73078EA7.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture.uasset'
+[2025.10.22-17.09.55:659][685]LogFileHelpers: InternalPromptForCheckoutAndSave took 448.474 ms (total: 1.00 sec)
+[2025.10.22-17.09.55:702][685]LogContentValidation: Display: Starting to validate 9 assets
+[2025.10.22-17.09.55:702][685]LogContentValidation: Enabled validators:
+[2025.10.22-17.09.55:702][685]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.22-17.09.55:702][685]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.22-17.09.55:702][685]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.22-17.09.55:702][685]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.22-17.09.55:702][685]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.22-17.09.55:702][685]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/components/Blueprint_Door Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/IronFence Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/IronFence1 Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAO Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceAlbedo Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceMetal Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceNormal Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/IronFenceRough Validating asset
+[2025.10.22-17.09.55:702][685]AssetCheck: /Game/Fab/CC0_-_Iron_Fence/Additional_Textures/internal_ground_ao_texture Validating asset
+[2025.10.22-17.09.55:716][685]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.22-17.10.29:059][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.10.22-17.10.29:088][188]LogStall: Shutdown...
+[2025.10.22-17.10.29:088][188]LogStall: Shutdown complete.
+[2025.10.22-17.10.29:145][188]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:146][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:192][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.22-17.10.29:192][188]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:192][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:227][188]LogSlate: Window 'Fab' being destroyed
+[2025.10.22-17.10.29:231][188]LogSlate: Window 'GiorgiaCavalleriCA1 - Unreal Editor' being destroyed
+[2025.10.22-17.10.29:232][188]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.10.22-17.10.29:311][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.22-17.10.29:324][188]Cmd: QUIT_EDITOR
+[2025.10.22-17.10.29:324][189]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.22-17.10.29:327][189]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.22-17.10.29:328][189]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.22-17.10.29:328][189]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.22-17.10.29:330][189]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:330][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:330][189]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/CA1.CA1
+[2025.10.22-17.10.29:337][189]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.22-17.10.29:337][189]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.22-17.10.29:338][189]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.22-17.10.29:342][189]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:342][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:344][189]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:344][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:346][189]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:346][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:348][189]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:348][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:350][189]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-17.10.29:350][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-17.10.29:352][189]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.22-17.10.29:352][189]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.22-17.10.29:358][189]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.22-17.10.29:565][189]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.22-17.10.29:565][189]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.22-17.10.29:565][189]LogAudio: Display: Audio Device unregistered from world 'CA1'.
+[2025.10.22-17.10.29:565][189]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.22-17.10.29:565][189]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.22-17.10.29:567][189]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.22-17.10.29:573][189]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.22-17.10.29:573][189]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.22-17.10.29:576][189]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.22-17.10.29:577][189]LogExit: Preparing to exit.
+[2025.10.22-17.10.29:604][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.29:607][189]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.22-17.10.30:167][189]LogEditorDataStorage: Deinitializing
+[2025.10.22-17.10.30:282][189]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.22-17.10.30:297][189]LogExit: Editor shut down
+[2025.10.22-17.10.30:299][189]LogExit: Transaction tracking system shut down
+[2025.10.22-17.10.30:536][189]LogExit: Object subsystem successfully closed.
+[2025.10.22-17.10.30:650][189]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.22-17.10.30:829][189]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/search?q=gate.
+[2025.10.22-17.10.30:840][189]LogMemoryProfiler: Shutdown
+[2025.10.22-17.10.30:840][189]LogNetworkingProfiler: Shutdown
+[2025.10.22-17.10.30:840][189]LoadingProfiler: Shutdown
+[2025.10.22-17.10.30:840][189]LogTimingProfiler: Shutdown
+[2025.10.22-17.10.30:841][189]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.22-17.10.30:841][189]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.22-17.10.31:114][189]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.22-17.10.31:683][189]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.22-17.10.31:697][189]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.22-17.10.31:697][189]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7D583D77-4CE1-660B-9DA1-7D85A1733682%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=37b91a7945303ff37377209942ff560a%7Ca462b8afe736479db8871daf05a79c75%7Cff198360-4a5d-447c-8c57-c3e32f47c1ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.22-17.10.31:700][189]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.22-17.10.31:700][189]RenderDocPlugin: plugin has been unloaded.
+[2025.10.22-17.10.31:708][189]LogXGEController: Cleaning working directory: C:/Users/n00230352/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.22-17.10.31:710][189]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.22-17.10.31:710][189]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.22-17.10.31:710][189]LogPakFile: Destroying PakPlatformFile
+[2025.10.22-17.10.33:178][189]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.22-17.10.33:256][189]LogExit: Exiting.
+[2025.10.22-17.10.33:277][189]Log file closed, 10/22/25 18:10:33
