@@ -2835,3 +2835,238 @@ Sampler Limit: 32
 [2025.10.22-14.57.24:855][992]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
 [2025.10.22-14.57.24:862][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
 [2025.10.22-14.57.24:914][993]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.10.22-14.57.48:113][936]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1690.621826
+[2025.10.22-14.57.49:113][939]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-14.57.49:113][939]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1691.290161, Update Interval: 308.093506
+[2025.10.22-15.03.52:504][ 29]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2055.012939
+[2025.10.22-15.03.53:502][ 32]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.03.53:502][ 33]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2055.677002, Update Interval: 307.322601
+[2025.10.22-15.04.47:599][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.22-15.04.47:609][194]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/E/HD/BTRR26OJTBLYIYGC7ZNDIN_Auto3
+[2025.10.22-15.04.47:609][194]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/BTRR26OJTBLYIYGC7ZNDIN_Auto3AF3101E7467242D26572BAA2FE2D2169.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/E/HD/BTRR26OJTBLYIYGC7ZNDIN_Auto3.uasset'
+[2025.10.22-15.04.47:611][194]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CA1' took 0.033
+[2025.10.22-15.04.47:611][194]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2025.10.22-15.04.47:611][194]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/components/BP_Teleport] ([2] browsable assets)...
+[2025.10.22-15.04.47:644][194]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/components/BP_Teleport.BP_Teleport]
+[2025.10.22-15.04.47:645][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/components/BP_Teleport]
+[2025.10.22-15.04.47:655][194]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/components/BP_Teleport_Auto3
+[2025.10.22-15.04.47:655][194]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/BP_Teleport_Auto328A9D3EA48591227D05A9BBD1B03639E.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/components/BP_Teleport_Auto3.uasset'
+[2025.10.22-15.04.47:657][194]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/components/materials/M_Glowy] ([1] browsable assets)...
+[2025.10.22-15.04.47:665][194]OBJ SavePackage:     Rendered thumbnail for [Material /Game/components/materials/M_Glowy.M_Glowy]
+[2025.10.22-15.04.47:665][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/components/materials/M_Glowy]
+[2025.10.22-15.04.47:672][194]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/components/materials/M_Glowy_Auto3
+[2025.10.22-15.04.47:672][194]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/M_Glowy_Auto3DBFACE1F498A4DD231A9BB8DFBD93519.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/components/materials/M_Glowy_Auto3.uasset'
+[2025.10.22-15.04.47:673][194]LogFileHelpers: Auto-saving content packages took 0.062
+[2025.10.22-15.09.58:569][127]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2421.072754
+[2025.10.22-15.09.59:566][130]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.09.59:566][130]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2421.736084, Update Interval: 300.466919
+[2025.10.22-15.15.48:617][177]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2771.112793
+[2025.10.22-15.15.49:615][180]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.15.49:615][181]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2771.775635, Update Interval: 329.728088
+[2025.10.22-15.21.57:666][284]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3140.156250
+[2025.10.22-15.21.58:669][287]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.21.58:669][288]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3140.824219, Update Interval: 303.869141
+[2025.10.22-15.27.42:710][320]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3485.198486
+[2025.10.22-15.27.43:711][322]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.27.43:711][322]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3485.861572, Update Interval: 337.244781
+[2025.10.22-15.31.34:813][ 16]LogDerivedDataCache: C:/Users/n00230352/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.22-15.33.55:078][436]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3857.563965
+[2025.10.22-15.33.56:076][439]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.33.56:076][440]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3858.231445, Update Interval: 353.400665
+[2025.10.22-15.40.27:790][614]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4250.274414
+[2025.10.22-15.40.28:792][617]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.40.28:792][618]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4250.941406, Update Interval: 348.634308
+[2025.10.22-15.46.52:839][769]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4635.323730
+[2025.10.22-15.46.53:841][772]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.46.53:841][773]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4635.989746, Update Interval: 343.772705
+[2025.10.22-15.53.12:225][908]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5014.708984
+[2025.10.22-15.53.13:229][910]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.53.13:230][910]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5015.376953, Update Interval: 308.869904
+[2025.10.22-15.59.14:934][995]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5377.419922
+[2025.10.22-15.59.15:937][998]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-15.59.15:938][998]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5378.085449, Update Interval: 312.764679
+[2025.10.22-16.05.18:644][ 86]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5741.130371
+[2025.10.22-16.05.19:645][ 89]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.05.19:646][ 90]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5741.798828, Update Interval: 315.225677
+[2025.10.22-16.11.17:696][163]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6100.176758
+[2025.10.22-16.11.18:695][166]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.11.18:695][166]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6100.844238, Update Interval: 331.051971
+[2025.10.22-16.17.43:080][319]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6485.556641
+[2025.10.22-16.17.44:078][322]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.17.44:078][322]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6486.220703, Update Interval: 300.668365
+[2025.10.22-16.17.51:322][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.10.22-16.17.51:326][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.22-16.17.51:392][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.10.22-16.17.51:411][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.10.22-16.17.51:430][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.10.22-16.17.51:439][ 82]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/E/HD/BTRR26OJTBLYIYGC7ZNDIN
+[2025.10.22-16.17.51:439][ 82]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/BTRR26OJTBLYIYGC7ZNDINFA41D8F948E7CF93DCC050A7473291CA.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/E/HD/BTRR26OJTBLYIYGC7ZNDIN.uasset'
+[2025.10.22-16.17.51:442][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/components/BP_Teleport] ([2] browsable assets)...
+[2025.10.22-16.17.51:442][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/components/BP_Teleport]
+[2025.10.22-16.17.51:442][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/components/BP_Teleport" FILE="../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/components/BP_Teleport.uasset" SILENT=true
+[2025.10.22-16.17.51:452][ 82]LogSavePackage: Moving output files for package: /Game/components/BP_Teleport
+[2025.10.22-16.17.51:452][ 82]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/BP_Teleport8CC6CD3E47F7D71AB8E82290C76673CF.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/components/BP_Teleport.uasset'
+[2025.10.22-16.17.51:454][ 82]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/components/materials/M_Glowy] ([1] browsable assets)...
+[2025.10.22-16.17.51:454][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/components/materials/M_Glowy]
+[2025.10.22-16.17.51:454][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/components/materials/M_Glowy" FILE="../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/components/materials/M_Glowy.uasset" SILENT=true
+[2025.10.22-16.17.51:460][ 82]LogSavePackage: Moving output files for package: /Game/components/materials/M_Glowy
+[2025.10.22-16.17.51:460][ 82]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/M_Glowy3181296140F7ABC512FCA49B65F8AE88.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/components/materials/M_Glowy.uasset'
+[2025.10.22-16.17.51:479][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.178 ms
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: Display: Starting to validate 3 assets
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: Enabled validators:
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.22-16.17.51:530][ 82]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.22-16.17.51:532][ 82]AssetCheck: /Game/CA1 Validating asset
+[2025.10.22-16.17.51:532][ 82]AssetCheck: /Game/components/BP_Teleport Validating asset
+[2025.10.22-16.17.51:532][ 82]AssetCheck: /Game/components/materials/M_Glowy Validating asset
+[2025.10.22-16.17.51:561][ 82]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.22-16.19.17:080][593]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.19.17:085][593]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.19.17:085][593]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.19.17:087][593]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 987 us (total: 8.118 ms)
+[2025.10.22-16.19.17:087][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.19.17:087][593]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.19.17:103][593]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.19.17:107][593]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.135 ms (total: 29.957 ms)
+[2025.10.22-16.19.17:107][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018958s)
+[2025.10.22-16.19.17:107][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.018988s)
+[2025.10.22-16.19.17:128][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.10.22-16.19.17:129][593]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.19.17:131][593]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.19.17:131][593]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.19.17:131][593]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.19.17:131][593]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.19.17:134][593]LogWorldPartition: Display: WorldPartition initialize took 3.484 ms (total: 186.357 ms)
+[2025.10.22-16.19.17:134][593]LogPlayLevel: PIE: World Init took: (0.005106s)
+[2025.10.22-16.19.17:135][593]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.22-16.19.17:135][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.19.17:135][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.19.17:135][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.19.17:135][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.19.17:135][593]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.19.17:135][593]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.19.17:135][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.19.17:135][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.19.17:135][593]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.19.17:135][593]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.19.17:135][593]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.19.17:136][593]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.19.17:163][593]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.19.17:163][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.19.17:163][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.19.17:163][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.19.17:165][593]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.22-16.19.17:165][593]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.22-16.19.17:166][593]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.22-16.19.17:166][593]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.22-16.19.17:166][593]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.22-16.19.17:166][593]LogAudio: Display: Audio Device (ID: 11) registered with world 'CA1'.
+[2025.10.22-16.19.17:166][593]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.22-16.19.17:170][593]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.19.17:177][593]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.19.17
+[2025.10.22-16.19.17:177][593]LogWorld: Bringing up level for play took: 0.006599
+[2025.10.22-16.19.17:179][593]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.10.22-16.19.17:185][593]PIE: Server logged in
+[2025.10.22-16.19.17:185][593]PIE: Play in editor total start time 0.099 seconds.
+[2025.10.22-16.19.20:898][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.19.20:898][ 13]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.19.20:899][ 13]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.19.20:900][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.19.20:900][ 13]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.19.20:903][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.19.20:905][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.19.20:925][ 13]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-16.19.20:925][ 13]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.22-16.19.20:925][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.10.22-16.19.20:927][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.10.22-16.19.20:932][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.19.20:935][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.10.22-16.19.20:990][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.10.22-16.19.28:223][702]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-16.19.28:228][702]LogContentBundle: [CA1(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.22-16.19.28:228][702]LogWorldPartition: Display: GenerateStreaming for 'CA1' started...
+[2025.10.22-16.19.28:229][702]LogWorldPartition: Display: GenerateStreaming for 'CA1' took 722 us (total: 8.841 ms)
+[2025.10.22-16.19.28:229][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-16.19.28:269][702]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CA1
+[2025.10.22-16.19.28:282][702]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.22-16.19.28:285][702]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.716 ms (total: 32.673 ms)
+[2025.10.22-16.19.28:285][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015920s)
+[2025.10.22-16.19.28:285][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CA1.CA1 to /Game/UEDPIE_0_CA1.CA1 (0.015966s)
+[2025.10.22-16.19.28:304][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.10.22-16.19.28:305][702]LogChaosDD: Creating Chaos Debug Draw Scene for world CA1
+[2025.10.22-16.19.28:306][702]LogWorldPartition: ULevel::OnLevelLoaded(CA1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.22-16.19.28:306][702]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.22-16.19.28:306][702]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_CA1.CA1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.22-16.19.28:306][702]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.22-16.19.28:309][702]LogWorldPartition: Display: WorldPartition initialize took 3.530 ms (total: 189.888 ms)
+[2025.10.22-16.19.28:309][702]LogPlayLevel: PIE: World Init took: (0.004923s)
+[2025.10.22-16.19.28:310][702]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.10.22-16.19.28:310][702]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-16.19.28:310][702]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-16.19.28:310][702]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-16.19.28:310][702]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-16.19.28:310][702]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-16.19.28:310][702]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-16.19.28:310][702]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-16.19.28:310][702]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-16.19.28:310][702]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-16.19.28:310][702]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-16.19.28:310][702]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-16.19.28:312][702]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-16.19.28:335][702]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.22-16.19.28:335][702]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-16.19.28:335][702]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-16.19.28:335][702]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-16.19.28:336][702]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.10.22-16.19.28:336][702]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.10.22-16.19.28:338][702]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.10.22-16.19.28:338][702]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.10.22-16.19.28:338][702]LogInit: FAudioDevice initialized with ID 12.
+[2025.10.22-16.19.28:338][702]LogAudio: Display: Audio Device (ID: 12) registered with world 'CA1'.
+[2025.10.22-16.19.28:338][702]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.22-16.19.28:341][702]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.22-16.19.28:348][702]LogWorld: Bringing World /Game/UEDPIE_0_CA1.CA1 up for play (max tick rate 0) at 2025.10.22-17.19.28
+[2025.10.22-16.19.28:348][702]LogWorld: Bringing up level for play took: 0.006130
+[2025.10.22-16.19.28:350][702]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.10.22-16.19.28:355][702]PIE: Server logged in
+[2025.10.22-16.19.28:356][702]PIE: Play in editor total start time 0.128 seconds.
+[2025.10.22-16.19.34:569][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.19.34:569][426]LogWorld: BeginTearingDown for /Game/UEDPIE_0_CA1
+[2025.10.22-16.19.34:569][426]LogWorld: UWorld::CleanupWorld for CA1, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-16.19.34:571][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.19.34:571][426]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_CA1.CA1
+[2025.10.22-16.19.34:573][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-16.19.34:576][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-16.19.34:595][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-16.19.34:595][426]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.10.22-16.19.34:595][426]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.10.22-16.19.34:598][426]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.10.22-16.19.34:606][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.22-16.19.34:657][427]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.10.22-16.20.22:890][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.22-16.20.22:900][628]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CA1/5/EC/FJV965MQVTHRGRBIJNJQRK_Auto4
+[2025.10.22-16.20.22:900][628]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/FJV965MQVTHRGRBIJNJQRK_Auto468EAA8A94A7E9B24C49CFA82CEA67292.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/Autosaves/Game/__ExternalActors__/CA1/5/EC/FJV965MQVTHRGRBIJNJQRK_Auto4.uasset'
+[2025.10.22-16.20.22:900][628]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CA1' took 0.032
+[2025.10.22-16.20.22:900][628]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2025.10.22-16.23.14:533][420]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6816.995117
+[2025.10.22-16.23.14:666][430]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-16.23.14:666][430]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6817.115723, Update Interval: 338.942230
+[2025.10.22-16.25.07:701][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.10.22-16.25.07:704][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.22-16.25.07:767][940]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CA1/5/EC/FJV965MQVTHRGRBIJNJQRK
+[2025.10.22-16.25.07:767][940]LogSavePackage: Moving '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/FJV965MQVTHRGRBIJNJQRK7C6D747C407D6C446DE8FB9CC15DBC44.tmp' to '../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Content/__ExternalActors__/CA1/5/EC/FJV965MQVTHRGRBIJNJQRK.uasset'
+[2025.10.22-16.25.07:784][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.599 ms (total: 231.778 ms)
+[2025.10.22-16.25.07:839][940]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.22-16.25.07:839][940]LogContentValidation: Enabled validators:
+[2025.10.22-16.25.07:839][940]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.22-16.25.07:839][940]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.22-16.25.07:839][940]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.22-16.25.07:839][940]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.22-16.25.07:839][940]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.22-16.25.07:839][940]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.22-16.25.07:839][940]AssetCheck: /Game/CA1 Validating asset
+[2025.10.22-16.25.07:854][940]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/n00230352/Desktop/GameDevCA1/GiorgiaCavalleriCA1/Saved/SourceControl/UncontrolledChangelists.json
